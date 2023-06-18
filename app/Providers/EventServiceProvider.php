@@ -20,6 +20,10 @@ class EventServiceProvider extends ServiceProvider
         ],
     ];
 
+    protected $observers = [
+
+    ];
+
     /**
      * Register any events for your application.
      */
