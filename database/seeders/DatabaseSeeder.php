@@ -20,6 +20,8 @@ class DatabaseSeeder extends Seeder
         //     'email' => 'test@example.com',
         // ]);
 
-        Travel::factory(10)->create();
+        $this->call(RoleSeeder::class);
+
+        $this->call(TravelSeeder::class);
     }
 }
